@@ -222,10 +222,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   display: flex;
   border: 10px solid goldenrod;
   min-height: 100vh;
-  /* flex-wrap: wrap; */
-  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  /* flex-direction: column-reverse; */
 }
 
 .box {
-  width: 33.3333333%;
+  width: 300px;
 }
